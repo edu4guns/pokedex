@@ -26,7 +26,7 @@ function Details() {
   };
 
   const handleSubmit = (event) => {
-    setPokemonName(search);
+    setPokemonName(search.toLowerCase());
     event.preventDefault();
   };
 
